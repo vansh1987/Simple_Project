@@ -2,7 +2,7 @@ package com;
 
 import java.util.Scanner;
 
-public class Console 
+public class Console extends Connection
 {
 
 	public Console()
@@ -77,6 +77,8 @@ public class Console
 
 		System.out.println("Please enter course name:");
 		String course_name = input.nextLine();
+		
+		insertRecord();
 		
 		
 
